@@ -41,23 +41,23 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
         <title>Admission-Enquiry-Form</title>
     </head>
     <body>
-        <h1>Admission Enquiry</h1>
+        <h1>Admission Enquiry Form </h1>
         <form>
-            <label for="fullname"> fullname: </label>
-            <input type=text id="fullname" name="fullname">
+            <label> fullname: </label>
+            <input type=text>
             <br><br>
-            <label for="Email"> Email: </label>
-            <input type=text id="Email" name="Email">
+            <label> Email: </label>
+            <input type=text>
             <br><br>
-            <label for="Mobile"> Mobile: </label>
-            <input type=text id="Mobile" name="Mobile">
+            <label> Mobile: </label>
+            <input type=text>
             <br><br>
             <label>Gender:</label>
             <input type="radio" name="gender" value="male">Male
             <input type="radio" name="gender" value="Female">Female
             <input type="radio" name="gender" value="Other">Other<br><br>
             <label>DOB:</label>
-            <input type="date" name="dob">
+            <input type="date">
             <br><br>
             <label>Department:</label>
             <input type="radio" name="Department" value="CSE">CSE
@@ -65,12 +65,15 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
             <input type="radio" name="Department" value="Other">Other<br>
             <br><br>
             <label>Qualification:</label><br>
-            <textarea name="qualification"></textarea><br><br>
+            <textarea name="qualification"></textarea>
+            <br><br>
             <label>Address:</label><br>
-            <textarea name="address"></textarea><br><br>
+            <textarea name="address"></textarea>
+            <br><br>
             <label>Contact Mode:</label>
             <input type="checkbox" name="contactMode" value="Email">Email
-            <input type="checkbox" name="contactMode" value="Phone">Phone<br><br>
+            <input type="checkbox" name="contactMode" value="Phone">Phone
+            <br><br>
 
            <input type="submit" value="Submit">
 
@@ -79,7 +82,8 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
 </html>
 ```
 ## Output:
-![Screenshot (58)](https://github.com/user-attachments/assets/7d8598cf-4f68-430e-a0b9-2e254b20c162)
+![Screenshot (59)](https://github.com/user-attachments/assets/795115c2-038e-447b-bce7-d5f79f1398ea)
+
 
 ## Result:
 An Admission Enquiry Form using HTML that collects student details and message for institutional follow-up is successfully created using semantic and readable HTML.
