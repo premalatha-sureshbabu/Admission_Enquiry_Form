@@ -45,35 +45,35 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
         <form>
             <label> fullname: </label>
             <input type=text>
-            <br><br>
+            <br>
             <label> Email: </label>
             <input type=text>
-            <br><br>
+            <br>
             <label> Mobile: </label>
             <input type=text>
-            <br><br>
+            <br>
             <label>Gender:</label>
             <input type="radio" name="gender" value="male">Male
             <input type="radio" name="gender" value="Female">Female
-            <input type="radio" name="gender" value="Other">Other<br><br>
+            <input type="radio" name="gender" value="Other">Other<br>
             <label>DOB:</label>
             <input type="date">
-            <br><br>
+            <br>
             <label>Department:</label>
             <input type="radio" name="Department" value="CSE">CSE
             <input type="radio" name="Department" value="ECE">ECE
             <input type="radio" name="Department" value="Other">Other<br>
-            <br><br>
+            <br>
             <label>Qualification:</label><br>
             <textarea name="qualification"></textarea>
-            <br><br>
+            <br>
             <label>Address:</label><br>
             <textarea name="address"></textarea>
-            <br><br>
+            <br>
             <label>Contact Mode:</label>
             <input type="checkbox" name="contactMode" value="Email">Email
             <input type="checkbox" name="contactMode" value="Phone">Phone
-            <br><br>
+            <br>
 
            <input type="submit" value="Submit">
 
@@ -82,8 +82,7 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
 </html>
 ```
 ## Output:
-![Screenshot (59)](https://github.com/user-attachments/assets/795115c2-038e-447b-bce7-d5f79f1398ea)
-
+![Screenshot (61)](https://github.com/user-attachments/assets/700cce63-c4c0-4874-8796-1ee95fd7d713)
 
 ## Result:
 An Admission Enquiry Form using HTML that collects student details and message for institutional follow-up is successfully created using semantic and readable HTML.
